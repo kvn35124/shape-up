@@ -12,22 +12,35 @@
 </head>
 
 <body>
-
-    <button class="btn" id="rectangle">Rectangle</button>
-    <label for="">Width:</label>
-    <input type="text" placeholder="Width">
-    <label for="">Height:</label>
-    <input type="text" placeholder="Height">
-    <button class="btn" id="sqaure">Square</button>
-    <label for="">Side Length:</label>
-    <input type="text" placeholder="Side Length">
-    <button class="btn" id="circle">Circle</button>
-    <label for="">Radius:</label>
-    <input type="text" placeholder="Radius">
-    <button class="btn" id="isoceles">Isoceles</button>
-    <label for="">Height:</label>
-    <input type="text" placeholder="Height">
-    <div></div>
+    <form action="">
+        <button class="btn btn-primary m-1" id="rectangle-btn">Rectangle</button>
+        <label for="">Width:</label>
+        <input type="text" id="rec-width" placeholder="Width">
+        <label for="">Height:</label>
+        <input type="text" id="rec-height" placeholder="Height">
+    </form>
+    <form action="">
+        <button class="btn btn-success m-1" id="sqaure-btn">Square</button>
+        <label for="">Side Length:</label>
+        <input type="text" id="sqaure-side" placeholder="Side Length">
+    </form>
+    <form action="">
+        <button class="btn btn-danger m-1" id="circle-btn">Circle</button>
+        <label for="">Radius:</label>
+        <input type="text" id="circle-radius" placeholder="Radius">
+    </form>
+    <form action="">
+        <button class="btn btn-warning m-1" id="isoceles-btn">Isoceles</button>
+        <label for="">Height:</label>
+        <input type="text" id="triangle-height" placeholder="Height">
+    </form>
+    <div class="shape-container"></div>
+    <div class="side-panel">
+        <p>Height: <span id="height-span"></span></p>
+        <p>Width: <span id="width-span"></span></p>
+        <p>Radius: <span id="radius-span"></span></p>
+        <p>Area: <span id="area-span"></span></p>
+    </div>
 
 
     <script src="http://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="

@@ -1,3 +1,38 @@
-.btn {
-    display: block;
+.shape-container {
+    margin: 1em;
+    position: relative;
+    height: 600px;
+    width: 600px;
+    background-color: lightgrey;
+}
+
+ .shape {
+    position: absolute;
+ }
+
+
+.circle {
+    background-color: purple;
+    border-radius: 50%;
+}
+
+.triangle {
+    /* background-color: yellow; */
+}
+
+
+.rectangle {
+    background-color: green;
+}
+
+.sqaure {
+    background-color: red;
+}
+
+
+.side-panel {
+    background-color: aquamarine;
+    height: 300px;
+    width: 300px;
+    padding: 1em;
 }
